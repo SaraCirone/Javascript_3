@@ -57,6 +57,6 @@ btn.addEventListener('click', function() {
     let abiti = Number(document.getElementById('abiti').value);
 
     let somma = cibo + abiti + detersivi;
-
-    document.getElementById('totale').innerHTML += somma;
+    
+    document.getElementById('totale').innerHTML = `Il totale spesa €: ${somma}`;
 });
